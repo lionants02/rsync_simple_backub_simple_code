@@ -1,0 +1,40 @@
+source_from=$1
+destination_to=$2
+
+./0_sync.sh _ _ $1 $2-_All/
+./0_sync.sh 0 0 $1 $2-0All/
+./0_sync.sh 1 1 $1 $2-1All/
+./0_sync.sh 2 2 $1 $2-2All/
+./0_sync.sh 3 3 $1 $2-3All/
+./0_sync.sh 4 4 $1 $2-4All/
+./0_sync.sh 5 5 $1 $2-5All/
+./0_sync.sh 6 6 $1 $2-6All/
+./0_sync.sh 7 7 $1 $2-7All/
+./0_sync.sh 8 8 $1 $2-8All/
+./0_sync.sh 9 9 $1 $2-9All/
+./0_sync.sh a A $1 $2-aAll/
+./0_sync.sh b B $1 $2-bAll/
+./0_sync.sh c C $1 $2-cAll/
+./0_sync.sh d D $1 $2-dAll/
+./0_sync.sh e E $1 $2-eAll/
+./0_sync.sh f F $1 $2-fAll/
+./0_sync.sh g G $1 $2-gAll/
+./0_sync.sh h H $1 $2-hAll/
+./0_sync.sh I I $1 $2-IAll/
+./0_sync.sh j J $1 $2-jAll/
+./0_sync.sh k K $1 $2-kAll/
+./0_sync.sh l L $1 $2-lAll/
+./0_sync.sh m M $1 $2-mAll/
+./0_sync.sh n N $1 $2-nAll/
+./0_sync.sh o O $1 $2-oAll/
+./0_sync.sh p P $1 $2-pAll/
+./0_sync.sh q Q $1 $2-qAll/
+./0_sync.sh r R $1 $2-rAll/
+./0_sync.sh s S $1 $2-sAll/
+./0_sync.sh t T $1 $2-tAll/
+./0_sync.sh u U $1 $2-uAll/
+./0_sync.sh v V $1 $2-vAll/
+./0_sync.sh w W $1 $2-wAll/
+./0_sync.sh x X $1 $2-xAll/
+./0_sync.sh y Y $1 $2-yAll/
+./0_sync.sh z Z $1 $2-zAll/
